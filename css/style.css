@@ -16,7 +16,7 @@ h4 {
   color: #303030;
   font-weight: 400;
   margin-bottom: 30px;
-}  
+}
 .jumbotron {
   background-color: #f4511e;
   color: #fff;
@@ -47,7 +47,8 @@ h4 {
   height: 100%;
   margin-bottom: 10px;
 }
-.carousel-control.right, .carousel-control.left {
+.carousel-control.right,
+.carousel-control.left {
   background-image: none;
   color: #f4511e;
 }
@@ -68,12 +69,12 @@ h4 {
   font-style: normal;
 }
 .panel {
-  border: 1px solid #f4511e; 
-  border-radius:0 !important;
+  border: 1px solid #f4511e;
+  border-radius: 0 !important;
   transition: box-shadow 0.5s;
 }
 .panel:hover {
-  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
 }
 .panel-footer .btn:hover {
   border: 1px solid #f4511e;
@@ -116,10 +117,12 @@ h4 {
   border-radius: 0;
   font-family: Montserrat, sans-serif;
 }
-.navbar li a, .navbar .navbar-brand {
+.navbar li a,
+.navbar .navbar-brand {
   color: #fff !important;
 }
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
   color: #f4511e !important;
   background-color: #fff !important;
 }
@@ -127,12 +130,15 @@ h4 {
   border-color: transparent;
   color: #fff !important;
 }
+
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
   color: #f4511e;
 }
-.slideanim {visibility:hidden;}
+.slideanim {
+  visibility: hidden;
+}
 .slide {
   animation-name: slide;
   -webkit-animation-name: slide;
@@ -144,7 +150,7 @@ footer .glyphicon {
   0% {
     opacity: 0;
     transform: translateY(70%);
-  } 
+  }
   100% {
     opacity: 1;
     transform: translateY(0%);
@@ -154,7 +160,7 @@ footer .glyphicon {
   0% {
     opacity: 0;
     -webkit-transform: translateY(70%);
-  } 
+  }
   100% {
     opacity: 1;
     -webkit-transform: translateY(0%);
@@ -174,4 +180,28 @@ footer .glyphicon {
   .logo {
     font-size: 150px;
   }
+}
+
+
+/* 
+* Changes made by Nilesh
+*/
+
+.navbar-brand {
+  float: left;
+  padding: 0px 0px;
+  position: relative;
+  left: 15px;
+  max-height: 78px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar-toggle{
+  padding: 20px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
